@@ -14,14 +14,14 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #1F2937 ;
-    padding: 0px 120px;
+    padding: 0% 15%;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0px;
+    padding-top: 20px;
     
 }
 
@@ -43,5 +43,90 @@ ul{
     
 }
 
+/* s1-subsection */
+.s1-subsection{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 10% 0%;
+    
+}
 
+.s1-subsection h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
 
+.s1-subsection p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.s1-button{
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 25px;
+    color: #F9FAF8;
+    font-weight: 600;
+  
+    margin-right: auto;
+}
+
+.s1-image{
+    display: flex;
+    background-color: #b3b6b9cb;
+    flex: 1.2;
+    width: 300px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.s1-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    
+}
+
+/* Section 2 */
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    padding: 0% 20%;
+    align-items: center;
+}
+
+.section2 h2{
+    margin: 40px 0px;
+    font-size: 36px;
+    font-weight: 900;
+}
+.s2-blocksContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+   
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+}
+
+.square{
+    width: 200px;
+    border: 3px solid #3882F6;
+    height: 200px;
+    border-radius: 15px;
+}
