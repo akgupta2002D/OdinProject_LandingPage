@@ -161,7 +161,7 @@ ul{
 }
 
 .s4-block{
-    margin: 5% 0%;
+    margin: 8% 0%;
     display: flex;
     background-color: #3882F6;
     align-items: center;
@@ -180,4 +180,15 @@ ul{
     border: 2px solid #F9FAF8;
     color: #F9FAF8;
     border-radius: 7px;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 2% 0;
+    margin-bottom: 30px;
+    color: #F9FAF8;
 }
